@@ -1,5 +1,9 @@
 #all ideas here will be transferred into other files and organized cleaner
 
+#lizard licking is considered a war crime
+#testing git
+
+
 import time
 import curses
 from curses import wrapper
