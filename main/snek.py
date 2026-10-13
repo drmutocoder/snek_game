@@ -27,6 +27,15 @@ def main(main_screen):
     while True:
 
         key = win.getch()
+        if key == ord('w'):
+            head = "U"
+            heady -= 1
+        if key == ord('s'):
+            head = "n"
+            heady += 1
+        if key == ord('a'):
+            head = ")"
+            headx -= 1
         if key == ord('d'):
             head = "("
             headx += 1
